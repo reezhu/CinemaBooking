@@ -1,0 +1,70 @@
+﻿
+a:link {text-decoration:none; color:white;}    /* 未被访问的链接 */
+a:visited {text-decoration:none;color:white;} /* 已被访问的链接 */
+a:hover {text-decoration:underline;color:white;}   /* 鼠标指针移动到链接上 */
+a:active {text-decoration:none;color:white;}  /* 正在被点击的链接 */
+
+body{
+	background: url(images/cinemabg.jpg);
+	background-color:#000000;
+	background-repeat: no-repeat;
+	border-bottom: solid 0px black;
+	background-attachment:fixed;
+	padding-top:0px;
+	background-position:top;
+	background-size:cover;
+	width:100%;
+}
+
+.title{
+	font-family:Cursive;
+	font-size:60px;
+	color: white;
+	white-space: pre-line;
+	text-align: center;
+	position:relative;
+	left:0px;
+	width: 400px;
+	margin-top:40px;
+	margin-left:50px;
+	border:20px;
+}
+
+.table {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 30%;
+    font-size:30px;
+    color: white;
+
+}
+.pure-button-row {
+    border-radius: 3px;
+    border-color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    height: 40px;
+    width: 380px;
+	font-size:30px;
+	color:red;
+	text-transform: uppercase;
+	font-weight:200;
+	font-family:Fantasy;
+	
+}
+
+.button{
+    margin: 10px;
+	
+}
+.ticket{
+    width: 100px;
+}
+
+
+
+	
